@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20200222 22:56:24.250" rpa="false">
+<suite id="s1" name="Login" source="D:\myGit\AutoUi\Login.robot">
+<test id="s1-t1" name="Login">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.baidu.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20200222 22:56:24.501" level="INFO">Opening browser 'chrome' to base url 'https://www.baidu.com'.</msg>
+<status status="PASS" starttime="20200222 22:56:24.501" endtime="20200222 22:56:27.420"></status>
+</kw>
+<status status="PASS" starttime="20200222 22:56:24.500" endtime="20200222 22:56:27.420" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200222 22:56:24.251" endtime="20200222 22:56:27.421"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
